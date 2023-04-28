@@ -1,12 +1,12 @@
 # CMPSC 442 Final Project
 
-Title: MATHstermind  
-Group: AI & Education 1  
-Names: Alex Baptista, Cameron Eby, Brendan Gibbons, Evan Kunkel, Jordan Motter, Nick Wentworth  
-Inst: The Pennsylvania State University, School of Electrical Engineering and Computer Science  
-Term: Spring 2023  
-Crse: CMPSC442/DS442  
-Prof: Chris Dancy  
+**Title**: MATHstermind  
+**Group**: AI & Education 1  
+**Names**: Alex Baptista, Cameron Eby, Brendan Gibbons, Evan Kunkel, Jordan Motter, Nick Wentworth  
+**Instructor**: The Pennsylvania State University, School of Electrical Engineering and Computer Science  
+**Term**: Spring 2023  
+**Course**: CMPSC442/DS442  
+**Professor**: Chris Dancy  
 
 ## Description
 
