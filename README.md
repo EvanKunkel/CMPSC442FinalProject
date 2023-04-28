@@ -116,5 +116,3 @@ print("Level 2: Moderate (Three Numbers) -----> Type 2")
 print("Level 3: Advanced (Four Numbers) -----> Type 3")
 `
 Depending on the user's response, the user will be taken to the function `gen_probs()` to enter the level they decided on or to leave the application. If they leave the application, they will be prompted with a goodbye message.
-
-## Issues
