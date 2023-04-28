@@ -67,10 +67,8 @@ def gen_prob(c, RHS=None, num_list=None, op_list=None):
     if (c == 0):
         return RHS, num_list, op_list
     
-    # Generate a non-zero integer, append to number list and create a string with it
-    num = 0
-    while(num == 0):
-        num = generate_num()
+    # Generate an integer, append to number list and create a string with it
+    num = generate_num()
     num_list.append(num)
     str = f'{num}'
 
@@ -81,6 +79,11 @@ def gen_prob(c, RHS=None, num_list=None, op_list=None):
         
         # Get already generated numbers and operators (needed for division)
         RHS_list = RHS.split(' ')
+
+        # Avoid divide by 0
+        prev_num = int(RHS_list[0])
+        while(op == '/' and prev_num == 0):
+            op, func = generate_op()
 
         # If current operation and next operation are both division, regenerate current operation
         # Avoids having multiple divions in a row, which would result in very large numbers being divided
