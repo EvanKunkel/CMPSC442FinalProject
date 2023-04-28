@@ -12,7 +12,7 @@ Prof: Chris Dancy
 
 The following describes the code used in rl_tutor.py  
 
-The code presents the user with arithmetic math problems, ranging from including 2 to 4 numbers. The numbers in the problems are integers in the range of (number_range). The operations that may appear in the problem are addition, subtraction, multiplication, and division. In the case of division, the problem is checked to make sure there is an integer solution.
+The code presents the user with arithmetic math problems, ranging from including 2 to 4 numbers. The numbers in the problems are integers between 1 and 12 (inclusive). The operations that may appear in the problem are addition, subtraction, multiplication, and division. In the case of division, the problem is checked to make sure there is an integer solution. The user enters their integer solution (which may be negative) and is told if they are correct or incorrect. 
 
 For each level, the user is given a number of problems. The user is rewarded with a scored based on the number of correct answers.
 
@@ -20,10 +20,17 @@ For each level, the user is given a number of problems. The user is rewarded wit
 
 ### Goals
 
+The goal of the system is to help the user improve their math skills, specifically in arithmetic, and become confident in their abilities. This includes providing a range of problems at different difficulty levels, tracking the user's progress over time, and offering feedback about how they are performing.
+
 ### Environment
+
+The environment of our system is the terminal, where messages are printed and the user can enter answers to problems. Ideally, The environment would include all levels of mathematics, different types of problems (multiple choice, work, etc.), and be integrated into a classroom environment. 
 
 ### Adaptation
 
+The adaptation involves adjusting the difficulty level and types of problems based on the user's performance and progress. For example, if the user is proficient in addition and subtraction, but struggles with multiplication and division, the program will generate more multiplication and division problems. Similarly, if the user is proficient at problems with one operation, the program will suggest trying problems with two. Overall, the system aims to provide a personal learning experience tailored to the user.
+
+## Design and Implementation
 
 ## How to use
 
