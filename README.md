@@ -52,7 +52,7 @@ The adaptation involves adjusting the difficulty level and types of problems bas
    The current dataset is a list of numbers from a range of 0 to 11 and a list of operators which include addition, subtraction, multiplication, and division. The reason for this dataset at this current moment is due to our specific goal at this current stage in the development. We wanted to focus more on basic arithmetic with smaller numbers to allow students who are beginning to learn mathematics to use this tool. In the near future, there will be additional branches of math added such as algebra and geometry.
    
 ### Diagram:
- 
+ ![alt text](https://github.com/EvanKunkel/CMPSC442FinalProject/blob/main/Diagram_442.png)
 
 
 ## How to use:
