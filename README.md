@@ -1,7 +1,7 @@
 # CMPSC 442 Final Project
 
 Title: MATHstermind  
-Group: AI & Education 2  
+Group: AI & Education 1  
 Names: Alex Baptista, Cameron Eby, Brendan Gibbons, Evan Kunkel, Jordan Motter, Nick Wentworth  
 Inst: The Pennsylvania State University, School of Electrical Engineering and Computer Science  
 Term: Spring 2023  
